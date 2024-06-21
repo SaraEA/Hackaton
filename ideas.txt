@@ -1,0 +1,3 @@
+- Hacer un bot que al que un usuario done ese dinero irá hacia plantar arboles
+- Hacer un juego con el speech y que al utilizar palabras referentes al cambio climatico dar pequeños tips para mejorar la reduccion del cambio climatico
+- Hacer un cuestionario sobre como el usuario vive su vida cotidiana y como puede cambiar pequeñas cosas para contribuir a la reduccion del cambio climatico
