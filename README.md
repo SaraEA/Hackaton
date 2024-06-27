@@ -6,11 +6,16 @@ Este proyecto se basará en los juegos de pronunciación, sin embargo, teniendo 
 
 ## Las bibliotecas que voy a utilizar:
 - Biblioteca requests
-- Biblioteca 2
+- Biblioteca random
+- Biblioteca time
+- Biblioteca speech_recognition
+- Biblioteca SQLAlchemy
+- Biblioteca urllib
 
 ## Referencias útiles:
-- Referencia 1
-- Referencia N
+- Portafolio
+- El diario del programador
+- Visión por ordenador
 
 ## Los artículos de la guía que me ayudarán durante el desarrollo
 Un breve comentario que le ayudará a recordar de qué trata el artículo... [una palabra clicable que contendrá el enlace](https://enlace_al_artículo)
