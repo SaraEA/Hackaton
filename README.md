@@ -16,6 +16,3 @@ Este proyecto se basará en los juegos de pronunciación, sin embargo, teniendo 
 - Portafolio
 - El diario del programador
 - Visión por ordenador
-
-## Los artículos de la guía que me ayudarán durante el desarrollo
-Un breve comentario que le ayudará a recordar de qué trata el artículo... [una palabra clicable que contendrá el enlace](https://enlace_al_artículo)
