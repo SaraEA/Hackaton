@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 1</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+    <header class="header_niveles"><h1>Nivel 1</h1></header>
+
+
+    {%block content%}
+    
+    <h1>{{score}}</h1>
+
+    {%if word%}
+        <h1>{{word}}</h1>
+        <form id="recognize-form" action="{{ url_for('recognize') }}" method="POST">
+            <input type="hidden" name="correct_word" value="{{ word }}">
+            <button type="submit">Pronunciar</button>
+        </form>
+        <form id="submit-form" action="{{ url_for('voices') }}" method="POST" style="display:none;">
+            <input type="hidden" name="correct_word" value="{{ word }}">
+        </form>
+
+    {% else %}
+
+        <form action="{{ url_for('mostrar') }}" method="POST">
+            <button type="submit">Obtener una palabra</button>
+        </form>
+
+    {% endif %}
+    {% if spoken_word %}
+
+        <p>Palabra pronunciada: {{ spoken_word }}</p>
+
+    {% endif %}
+
+    {%endblock%}
+</body>
+</html>
